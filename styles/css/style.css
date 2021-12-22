@@ -1,0 +1,92 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/media/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.input-btn:focus{
+    border: 0;
+    outline: none;
+}
+.search-btn{
+    background-color: #0a7dbe;
+    border: none;
+}
+.search-btn:focus{
+    background-color: #01466ea8;
+    transition: background-color 1s ease 0s;
+}
+
+
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+}
+
+/* Media query for small device */
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+}
+
+
+/* Media query for medium device */
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+}
+
+/* Media query for large device */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+}
+
+/* Media query for extra large device */
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+}
+
+/* Media query for extra extra large device */
+@media only screen and (min-width:1400px) {
+
+    /* Common Styles */
+    * {
+        width: 100%;
+    }
+    body {
+        background-size: cover;
+    }
+}
